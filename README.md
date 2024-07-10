@@ -1,9 +1,9 @@
-# CYP1A2-Inhibition-Prediction_Model
-Machine Learning-based prediction model for CYP1A2_inhibition prediction
+# CYP1A2-Inhibition-Prediction-Model
+Machine learning-based prediction model for CYP1A2 inhibition prediction
 
 ## Introduction: ## 
 
-Welcome to our repository, here we provide machine learning model to efficiently predict the CYP1A2_inhibition of target drug compounds in early stage drug discovery process.
+Welcome to our repository, here we provide machine learning model to efficiently predict the CYP1A2 inhibition of target drug compounds in early stage drug discovery process
 
 ## Dependencies ##
 
@@ -33,8 +33,8 @@ Note: For the validation step, prepare a .csv file containing SMILES with biocla
 
 **Output:**
 
-Our model generates output in binary value (1 or 0), where 1 indicates compound to be permeable, while 0 indicates non-permeable.
+Our model generates output in binary value (1 or 0), where 1 indicates compound to be inhibitor, while 0 indicates non-inhibitor
  
-**Please make sure to keep all the required files (CYP1A2.pkl, data_preprocessing.py, scaler, featuers.txt, inputfile.csv, model.py)in the working directory.**
+**Please make sure to keep all the required files (CYP1A2.pkl, data_preprocessing.py, scaler, featuers.txt, input_file.csv, model.py) in the working directory.**
 
 **To download the prediction model file (CYP1A2.pkl), please refer to the "Tag --> v2.3.4" tab.**
