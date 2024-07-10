@@ -32,6 +32,6 @@ $ python model.py --validation --file_name [filename] --model_path CYP1A2.pkl
 Note: For the validation step, prepare a .csv file containing SMILES with bioclass (0 or 1) (e.g., valid_set.csv)
 
  
-**Please make sure to keep all the required files (BBB.pkl, data_preprocessing.py, scaler, featuers.txt, inputfile.csv)in the working directory.**
+**Please make sure to keep all the required files (CYP1A2.pkl, data_preprocessing.py, scaler, featuers.txt, inputfile.csv, model.py)in the working directory.**
 
-**To access the prediction model files (CYP1A2.pkl), please refer to the "Tag --> v2.3.4" tab.**
+**To download the prediction model file (CYP1A2.pkl), please refer to the "Tag --> v2.3.4" tab.**
