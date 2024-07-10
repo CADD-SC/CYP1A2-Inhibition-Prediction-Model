@@ -31,6 +31,9 @@ $ python model.py --validation --file_name [filename] --model_path CYP1A2.pkl
 ```
 Note: For the validation step, prepare a .csv file containing SMILES with bioclass (0 or 1) (e.g., valid_set.csv)
 
+**Output:**
+
+Our model generates output in binary value (1 or 0), where 1 indicates compound to be permeable, while 0 indicates non-permeable.
  
 **Please make sure to keep all the required files (CYP1A2.pkl, data_preprocessing.py, scaler, featuers.txt, inputfile.csv, model.py)in the working directory.**
 
