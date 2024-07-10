@@ -35,6 +35,6 @@ Note: For the validation step, prepare a .csv file containing SMILES with biocla
 
 Our model generates output in binary value (1 or 0), where 1 indicates compound to be inhibitor, while 0 indicates non-inhibitor
  
-**Please make sure to keep all the required files (CYP1A2.pkl, data_preprocessing.py, scaler, featuers.txt, input_file.csv, model.py) in the working directory.**
+**Please ensure that all the necessary files (CYP1A2.pkl, data_preprocessing.py, scaler, features.txt, input_file.csv, model.py) are kept in the working directory**
 
-**To download the prediction model file (CYP1A2.pkl), please refer to the "Tag --> v2.3.4" tab.**
+**To download the prediction model file (CYP1A2.pkl), please refer to the "Tags --> v2.3.4" tab**
