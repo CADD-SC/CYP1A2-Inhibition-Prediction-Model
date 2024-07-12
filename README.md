@@ -6,9 +6,9 @@ Machine learning-based prediction model for CYP1A2 inhibition prediction
 Welcome to our repository, here we provide machine learning model to efficiently predict the CYP1A2 inhibition of target drug compounds in early stage drug discovery process. CYP1A2 being a significant member of Cytochrome P450 enzymes family, plays a crucila role in the biotransformation of various xenobiotics and endogenous compounds.Inhibition of CYP1A2 can lead to altered drug metabolism, resulting in increased drug levels, potential toxicity, and adverse drug interactions.
 
 ## Classification criteria
-The model uses an IC50 threshold:
+The model uses an IC<sub>50</sub> threshold:
 
-</strong> If <em>IC50</em> < 10 μM, the compound is <strong>Inhibitor</strong> and belongs to class 1. If <em>IC50</em> ≥ 10 μM, it is <strong>Not an Inhibitor</strong> and belongs to class 0.
+</strong> If <em>IC<sub>50</sub></em> < 10 μM, the compound is <strong>Inhibitor</strong> and belongs to class 1. If <em>IC<sub>50</sub></em> ≥ 10 μM, it is <strong>Not an Inhibitor</strong> and belongs to class 0.
 
 ## Dependencies ##
 
