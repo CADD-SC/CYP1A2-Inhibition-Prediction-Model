@@ -1,9 +1,14 @@
 # CYP1A2-Inhibition-Prediction-Model
 Machine learning-based prediction model for CYP1A2 inhibition prediction
 
-## Introduction: ## 
+## Introduction ## 
 
-Welcome to our repository, here we provide machine learning model to efficiently predict the CYP1A2 inhibition of target drug compounds in early stage drug discovery process
+Welcome to our repository, here we provide machine learning model to efficiently predict the CYP1A2 inhibition of target drug compounds in early stage drug discovery process. CYP1A2 being a significant member of Cytochrome P450 enzymes family, plays a crucila role in the biotransformation of various xenobiotics and endogenous compounds.Inhibition of CYP1A2 can lead to altered drug metabolism, resulting in increased drug levels, potential toxicity, and adverse drug interactions.
+
+## Classification criteria
+The model uses an IC50 threshold:
+
+</strong> If <em>IC50</em> < 10 μM, the compound is <strong>Inhibitor</strong> and belongs to class 1. If <em>IC50</em> ≥ 10 μM, it is <strong>Not an Inhibitor</strong> and belongs to class 0.
 
 ## Dependencies ##
 
@@ -22,14 +27,14 @@ Welcome to our repository, here we provide machine learning model to efficiently
 ```
 $ python model.py --prediction --file_name [filename] --model_path CYP1A2.pkl
 ```
-Note: For the prediction step, prepare a .csv file containing SMILES without bioclass (e.g., test_set.csv)
+<strong>Note:</strong> For the prediction step, prepare a .csv file containing SMILES without bioclass (e.g., test_set.csv)
 
 **To run the validation:**
 
 ```
 $ python model.py --validation --file_name [filename] --model_path CYP1A2.pkl
 ```
-Note: For the validation step, prepare a .csv file containing SMILES with bioclass (0 or 1) (e.g., valid_set.csv)
+<strong>Note:</strong> For the validation step, prepare a .csv file containing SMILES with bioclass (0 or 1) (e.g., valid_set.csv)
 
 **Output:**
 
